@@ -54,7 +54,7 @@ if(isset($_POST['edit'])){
             <div class="card">
                 <form action="" method="post">
 
-                    <input type="text" name="task" class="input-control" placeholder="Edit task" value="<?= $d->tasklabel ?>">
+                    <input type="text" name="task" class="input-control" placeholder="Edit task" required value="<?= $d->tasklabel ?>">
 
                     <div class="text-right">
                         <button type="submit" name="edit">Edit</button>
