@@ -85,7 +85,7 @@ if(isset($_GET['done'])){
             <div class="card">
                 <form action="" method="post">
 
-                    <input type="text" name="task" class="input-control" placeholder="Add task" required>
+                    <input type="text" name="task" class="input-control" placeholder="Add task" required autofocus>
 
                     <div class="text-right">
                         <button type="submit" name="add">Add</button>
